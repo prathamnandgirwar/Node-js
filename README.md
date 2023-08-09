@@ -1,6 +1,7 @@
-<! # NodeJS Project
-# For this project, we'll use Express.js to build a straightforward Node.js web application, containerize it with Docker, and set up continuous integration (CI) with GitHub Actions. When updates are pushed to the repository, the CI pipeline will instantly build and test the application.
-# create a new repository in your github account
+<!
+# NodeJS Project
+For this project, we'll use Express.js to build a straightforward Node.js web application, containerize it with Docker, and set up continuous integration (CI) with GitHub Actions. When updates are pushed to the repository, the CI pipeline will instantly build and test the application.
+create a new repository in your github account
 create "app.js" file and write simple web application code of "Hi This is NodeJS Devops Project"
 We launch a EC2 instance of t2.micro in AWS.
 In Security group allow SSH, HTTPS, and Custom TCP of 3000, which is default port for nodejs
